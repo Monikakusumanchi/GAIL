@@ -11,9 +11,9 @@ def simulate_data_processing():
     # Simulating some data processing task
     time.sleep(3)
     return "Trace Matrix   successfully generated. [Click here to view](https://docs.google.com/spreadsheets/d/19ZW_Eq3ySx925glrnokXDLBvx69_A7sTP02f8-NuB4Q/edit#gid=28624861)"
-user_input = st.text_input("Please Enter the uri of the application", " ")
+user_input = st.text_input("Please enter the url of the application", " ")
 option = st.selectbox("Select an option:", ["Risk Analysis", "URS"])
-grant_access = st.checkbox("Grant edit access to  services@pcube.com")
+grant_access = st.checkbox("I granted edit access to serivices@p-cube.com to the above spreadsheet")
     
               
 if st.button("Submit"):
